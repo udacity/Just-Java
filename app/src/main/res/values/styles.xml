@@ -16,7 +16,21 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        <!-- App branding color for the app bar -->
+        <item name="colorPrimary">#009688</item>
+        <!-- Darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#00796B</item>
+        <!-- Theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#536DFE</item>
+    </style>
+
+    <!-- Style for header text in the order form -->
+    <style name="HeaderTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
     </style>
 
 </resources>

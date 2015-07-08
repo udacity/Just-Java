@@ -12,6 +12,67 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <string name="app_name">Just Java</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- Title for the application. [CHAR LIMIT=12] -->
+     <string name="app_name">Just Java</string>
+
+     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+     <string name="name">Name</string>
+
+     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+     <string name="toppings">Toppings</string>
+
+     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+     <string name="whipped_cream">Whipped cream</string>
+
+     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+     <string name="chocolate">Chocolate</string>
+
+     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+     <string name="quantity">Quantity</string>
+
+     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=5] -->
+     <string name="initial_quantity_value">2</string>
+
+     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+     <string name="order">Order</string>
+
+     <!--
+       Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+       user's name. [CHAR LIMIT=NONE]
+     -->
+     <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+     <!--
+       Whipped cream topping for the order summary. It will be shown in the format of
+       "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
+     -->
+     <string name="order_summary_whipped_cream">Add whipped cream? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+
+     <!--
+       Chocolate topping for the order summary. It will be shown in the format of
+       "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
+     -->
+     <string name="order_summary_chocolate">Add chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+
+     <!--
+       Quantity of coffee cups for the order summary. It will be shown in the format of
+       "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+     -->
+     <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+
+     <!--
+       Total price for the order summary. It will be shown in the format of
+       "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+     -->
+     <string name="order_summary_price">Total: <xliff:g id="price" example="$10">%s</xliff:g></string>
+
+     <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+     <string name="thank_you">Thank you!</string>
+
+     <!--
+       Subject line for the order summary email. It will be in the format of
+       "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+     -->
+     <string name="order_summary_email_subject">Just Java order for <xliff:g id="name" example="Amy">%s</xliff:g></string>
 </resources>
