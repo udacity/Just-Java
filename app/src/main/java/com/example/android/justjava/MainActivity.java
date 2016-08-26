@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
      * Calculates the price of the order.
      *
      * @param addWhippedCream is whether or not we should include whipped cream topping in the price
-     * @param addChocolate    is whether or not we should include whipped cream topping in the price
+     * @param addChocolate    is whether or not we should include chocolate topping in the price
      * @return total price
      */
     private int calculatePrice(boolean addWhippedCream, boolean addChocolate) {
