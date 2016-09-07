@@ -9,8 +9,8 @@ To see a list of all available commands, run "gradlew tasks".
 Dependencies
 -------------
 
-- Android SDK Build-tools v22.0.1
-- Android Support Repository v22.1.1
+- Android SDK Build-tools v24.0.2
+- Android Support Repository v24.2.0
 
 Dependencies are available for download via the Android SDK Manager.
 
