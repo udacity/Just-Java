@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (addwhippedcream) {
             basePrice += 2;
+
         }
         return basePrice*quantity;
     }
@@ -135,8 +136,5 @@ public class MainActivity extends AppCompatActivity {
             quantity = 1;
         }
         display(--quantity);
-    }
-
-    public void onCheckboxClicked(View view) {
     }
 }
