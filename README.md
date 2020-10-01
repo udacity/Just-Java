@@ -1,11 +1,14 @@
 Just Java Sample App
 ===================================
 
+Begineer friendly to get started with Android Studio.
 This app displays an order form for coffee. Used in the Udacity Android for Beginners course.
 
 Pre-requisites
 --------------
 
+- Basic knowledge of Java
+- Begineer in android studio
 - Android SDK v24
 - Android Build Tools v24.0.2
 - Android Support Repository v24.2.0
