@@ -1,7 +1,13 @@
 Just Java Sample App
 ===================================
 
-This app displays an order form for coffee. Used in the Udacity Android for Beginners course.
+This app displays an order form for coffee. Used in the Udacity Android for Beginners course. The video below shows how the app would look like after build and running the code in the "Lesson_2" branch:
+
+
+
+https://user-images.githubusercontent.com/48475411/153140102-8e6930e4-f1cd-436f-9d48-3a70c8d23f11.mov
+
+
 
 Pre-requisites
 --------------
